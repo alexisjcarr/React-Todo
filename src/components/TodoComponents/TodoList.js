@@ -4,7 +4,7 @@ import Todo from "./Todo";
 const TodoList = props => {
   return (
     <div>
-      <h1>Todo List: MVP</h1>
+      <h1>To-Do List</h1>
       {props.todoArray.map(el => (
         <Todo todoItem={el} toggleTask={props.toggleTask} />
       ))}
