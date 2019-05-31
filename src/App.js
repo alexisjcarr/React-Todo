@@ -91,8 +91,10 @@ class App extends Component {
       completed: false
     };
 
-    this.setState({
-      todoArray: [...this.state.todoArray, newItem]
+    this.setState(prevState => {
+      return{
+        todoArray: [...prevState.todoArray, newItem]
+      }
     });
   };
 
