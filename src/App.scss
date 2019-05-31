@@ -1,0 +1,25 @@
+$violet: #5603ad;
+$ube: #8367c7;
+$magic-mint: #b3e9c7;
+$tea-green: #c2f8cb;
+$honeydew: #f0fff1;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+//   border: 0.5rem solid $ube;
+  border-radius: 1.2rem;
+  width: 70%;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  margin: auto;
+  margin-top: 2rem;
+  background: $magic-mint;
+
+  font-family: "Montserrat", sans-serif;
+  color: $violet;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}

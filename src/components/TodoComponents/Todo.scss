@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.todo {
+    &:hover {
+        cursor: pointer;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.completed {
+    text-decoration: line-through;
+}
